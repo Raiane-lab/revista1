@@ -1,0 +1,56 @@
+.menu {
+    background-color: #8bd2f3;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+#rodape {
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    background-color: #8bd2f3;
+    color: white;
+}
+table {
+    border: 1px solid rgb(209, 80, 80);
+}
+
+.destaque {
+    background-color: yellow;
+    font-weight: bold;
+}
+#titulo-noticias {
+    color: red;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: #47ff8d; 
+}
+a:active {
+    text-decoration: underline; 
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+p::first-letter {
+    font-size: 1.5em; 
+    font-weight: bold; 
+
+}
+
+
+h2::after {
+    content: " 👗 👜✨"; 
+    font-size: 1.5em; 
+}
