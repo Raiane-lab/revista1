@@ -5,35 +5,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitrine</title>
-    <link rel="stylesheet" href="estilo.css">
-   
+    <link rel="stylesheet" href="estilo1.css">
+    <style>
+        .hamburguer {
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px;
+            background-color: rgb(117, 0, 128);
+            border-radius: 5px;
+        }
 
+        .hamburguer div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 4px 0;
+            border-radius: 2px;
+        }
+        .menu-hamburguer {
+            background-color: rgb(117, 0, 128);
+            padding: 10px;
+            text-align: center;
+        }
+
+        .menu-hamburguer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .menu-hamburguer a:hover {
+            text-decoration: underline;
+        }
+
+       
+        .div7 {
+            background-color: #fdfdfd;
+            padding: 20px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .div7 h2 {
+            color: navy;
+            margin-bottom: 10px;
+        }
+
+        .div7 p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
 
 <body>
     <header id="topo">
-        <h1 style="color: navy; font-size: 28px;">Bem-vindo à Revista Vitrine</h1>
-        <h2>Aqui você fica sabendo as novas tendências da primavera/verão e assuntos sobre a atualidade!</h2>
+       
     </header>
 
     <nav class="menu">
-        <h2>Nosso Menu</h2>
-        <ul>
-            <li><a href="#noticias">Notícias</a></li>
-            <li><a href="#tutoriais">Tutoriais</a></li>
-            <li><a href="#curiosidades">Curiosidades</a></li>
-            <li><a href="#galeria">Galeria</a></li>
-        </ul>
+       
     </nav>
 
     <hr>
 
-    <main>
+   
+
+        <div class="parent">
+            <div class="div1">
+                <a href="#"><img src="imagens/olympikus.jfif" alt="parceria" width="300"></a>
+            </div>
+
+            <div class="div2">
+                <div class="hamburguer">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="menu-hamburguer">
+                    <a href="#noticias">Notícias</a>
+                    <a href="#tutoriais">Tutoriais</a>
+                    <a href="#curiosidades">Curiosidades</a>
+                    <a href="#galeria">Galeria</a>
+                </div>
+            </div>
+
+            <div class="div3">
+                <a href="#"><img src="imagens/vitrine.jpg" alt="Logo" width="1000"></a>
+            </div>
+
+            <div class="div4">
+                <a href="#"><img src="imagens/coca.jfif" alt="parceria" width="300"></a>
+            </div>
+
+            <div class="div5">
+                <footer>
+                    <p>&copy; 2025 — Revista Vitrine escrita por Raiane V. Michelon</p>
+                    <p><a href="#topo">Voltar ao topo</a></p>
+                </footer>
+            </div>
+
+            <div class="div6">
+                Redes sociais
+                <a href="#"><img src="imagens/facebook.png" alt="Facebook" width="50"></a>
+                <a href="#"><img src="imagens/instagram.png" alt="Instagram" width="50"></a>
+                 <a href="#"><img src="imagens/whats.lnk" alt="Instagram" width="50"></a>
+  </div>
+  
+            <div class="div7">
+             <main>
         <section id="noticias">
             <h2 id="titulo-noticias">Seção: <u>Notícias</u></h2>
             <article>
                 <h3><u>Manchete:</u></h3>
-                <p><abbr title="Observação">Obs.</abbr> Roupas na paleta <mark>verde e marrom</mark> serão tendências
+                <p><abbr title="Observação">Obs.</abbr> Roupas na paleta <u>verde e marrom</u> serão tendências
                     para este ano</p>
                 <p class="especifico">
                     <a href="https://www.tecmundo.com.br" target="_blank" rel="noopener noreferrer"
@@ -62,6 +150,7 @@
                 partir de plástico reciclado do oceano?
                 Também diminui o uso de H<sub>2</sub>O e o X<sup>2</sup> na fabricação do jeans tradicional.
             </p>
+            <button> Saiba mais</button>
         </aside>
         <aside id="edicoes-recentes">
             <h3><u>Edições Recentes:</u></h3>
@@ -89,18 +178,17 @@
             <h3><u>Glossário:</u></h3>
             <dl>
                 <dt>Moda</dt>
-                <dd>A moda faz parte das vetrines</dd>
+                <dd>A moda faz parte das vitrines</dd>
                 <dt>Vestidos</dt>
-                <dd>Tendencia para o outono e verão, vestidos mais leves</dd>
+                <dd>Tendência para o outono e verão, vestidos mais leves</dd>
                 <dt>Jeans</dt>
                 <dd>Os jeans também serão uma ótima opção.</dd>
             </dl>
         </aside>
 
-        <aside id="Seções da Revista">
+        <aside id="Seções-da-Revista">
             <h3><u>Seções da Revista</u></h3>
             <ul>
-
                 <li>Notícias
                     <ul>
                         <li>Jornal</li>
@@ -122,15 +210,13 @@
                         <li>Quadro</li>
                     </ul>
                     <ul>
-                        <li>Circulo</li>
+                        <li>Círculo</li>
                     </ul>
                 </li>
-
             </ul>
-
         </aside>
 
-        <aside id="Tabela de Autores">
+        <aside id="Tabela-de-Autores">
             <h3><u>Tabela de Autores</u></h3>
             <table>
                 <caption><strong>Autores da Revista</strong></caption>
@@ -154,7 +240,7 @@
                     </tr>
                     <tr>
                         <th scope="row">Monteiro</th>
-                        <td>Matematica</td>
+                        <td>Matemática</td>
                         <td>26</td>
                     </tr>
                 </tbody>
@@ -166,36 +252,32 @@
             </table>
         </aside>
 
-
-        <h3><u>Cadastro de
-                Assinantes</u></h3>
+        <h3><u>Cadastro de Assinantes</u></h3>
         <form action="#" method="POST" enctype="multipart/form-data" autocomplete="on">
-
             <fieldset>
-                <legend> Informações pessoais </legend>
+                <legend>Informações pessoais</legend>
                 <p class="trecho">Nome completo →
                     <input type="text" required maxlength="50" placeholder="Digite seu nome completo">
                 </p>
                 <p>E-mail →
-                    <input type="email" required placeholder="Digite seu 
-e-mail">
+                    <input type="email" required placeholder="Digite seu e-mail">
                 </p>
                 <p>Senha → <input type="password" required minlength="6" placeholder="Crie sua senha"></p>
                 <p>Data de nascimento →
                     <input type="date" required>
                 </p>
-
             </fieldset>
+
             <br>
 
             <fieldset>
-                <legend>Preferências da revista </legend>
-                <p> Gênero de interesse → <select name="opções" id="opções" required>
+                <legend>Preferências da revista</legend>
+                <p>Gênero de interesse → 
+                    <select name="opções" id="opções" required>
                         <option value="Tecnologia">Tecnologia</option>
                         <option value="Programação">Programação</option>
                         <option value="Curiosidades">Curiosidades</option>
                         <option value="Jogos">Jogos</option>
-
                     </select>
                 </p>
 
@@ -204,7 +286,7 @@ e-mail">
                     <input type="radio" name="notificacoes" value="nao"> Não.
                 </p>
 
-                <p> Temas favoritos:
+                <p>Temas favoritos:
                     <input type="checkbox" name="temas" value="Roupas de verão"> Roupas de verão
                     <input type="checkbox" name="temas" value="Roupas de inverno"> Roupas de inverno
                     <input type="checkbox" name="temas" value="Coleção nova"> Coleção nova
@@ -212,22 +294,20 @@ e-mail">
             </fieldset>
 
             <br>
+
             <fieldset>
-                <legend>Upload de arquivo </legend>
-                <p> Envie sua foto: <input type="file" accept="image/*">
+                <legend>Upload de arquivo</legend>
+                <p>Envie sua foto: <input type="file" accept="image/*"></p>
             </fieldset>
+
             <br>
-            <p> Comentários extras: </p>
-            <textarea rows="4" cols="40" placeholder="Escreva sua
-sugestão ou comentário"></textarea>
-            <br>
-            <br>
+            <p>Comentários extras:</p>
+            <textarea rows="4" cols="40" placeholder="Escreva sua sugestão ou comentário"></textarea>
+            <br><br>
             <button type="submit">Enviar Cadastro</button>
             <br>
             <button type="reset">Limpar</button>
         </form>
-
-
 
         <section id="galeria">
             <h2>Galeria</h2>
@@ -242,15 +322,6 @@ sugestão ou comentário"></textarea>
                 <source srcset="imagens/verao.jpeg" media="(min-width: 500px)">
                 <img src="imagens/primavera.jfif" alt="Primavera/verão" title="Primavera/verão" width="200">
             </picture>
-        </section>
-    </main>
-
-    <hr>
-
-    <footer id="rodape">
-        <p>&copy; 2025 — Revista Vitrine escrita por Raiane V. Michelon</p>
-        <p><a href="#topo">Voltar ao topo</a></p>
-    </footer>
-</body>
-
-</html>
+        </section>   
+  </div>
+  
